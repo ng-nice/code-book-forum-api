@@ -1,7 +1,8 @@
 class BootStrap {
-    def setupService;
-    def init = { servletContext ->
-    }
-    def destroy = {
-    }
+  def setupService;
+  def init = { servletContext ->
+    setupService.init();
+  }
+  def destroy = {
+  }
 }
